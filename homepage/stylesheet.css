@@ -4,4 +4,26 @@
 
 ul {
 	list-style-type: none;
+	width: 80%;
+}
+
+li {
+	font-size: 1.5em;
+
+}
+
+.indent {
+	margin-left: 3em;
+}
+
+.newline {
+	margin-bottom: 1em;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
 }
