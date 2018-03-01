@@ -8,6 +8,8 @@
 					integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 					crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="scripts.js"></script>
 		<title>Max Corwin</title>
   </head>
   <body>
@@ -23,6 +25,22 @@
   	<div class="indent">
   		<h2>Projects</h2>
   		<ul>
+        <li class="newline"><a href="congress.html" class="bold">What happened under Trump?</a>: 
+          A website to see all the bills that have been enacted by the federal government since 
+          President Trump took office. Although this was originally intended to be a updated 
+          version of <a href="http://www.whatthefuckhasobamadonesofar.com">this website</a> to 
+          reflect the changes under the new president, I have started adding additional features 
+          such as insight on how each chamber of congress, as well as your representatives, voted 
+          on each bill. This project is just getting started and there will be many more features 
+          to come! Having said that, this is very much a work in progress, so not everything is 
+          working properly yet. The stack consists of Phoenix, Elixir, Postgres, and Nginx. I am 
+          currently using plain JavaScript on the front-end, but will likely need a framework such 
+          as ReactJS to manage state. Most of the data comes from the 
+          <a href="https://projects.propublica.org/api-docs/congress-api/">ProPublica Congress API</a>, 
+          but the ability to get your ditrict by your address comes from the 
+          <a href="https://developers.google.com/civic-information/">Google Civic Information API</a>. 
+          <a href="https://www.github.com/magic31415/congress">Github Repository</a></li>
+        </li>
   			<li class="newline"><a href="whatshoppin.html" class="bold">What's Hoppin</a>:
   				A website for beer enthusiasts to browse for and learn about different types of beer.
   				Users can post comments on beer style and brewery pages.
@@ -34,9 +52,11 @@
 				</li>
 				<li><a href="https://github.com/magic31415/android-app" class="bold">Android Apps</a>:
 					<div class="indent">
-						<span class="underline">Pair</span> - A card-matching Android game that allows players to help scientists label raw accelerometer data.
+						<span class="underline">Pair</span> - A card-matching Android game that allows players 
+            to help scientists label raw accelerometer data.
           	<div>
-          		<span class="underline">Scroggle</span> - A boggle-like Android game with both single-player games and online multiplayer games.
+          		<span class="underline">Scroggle</span> - A boggle-like Android game with both 
+              single-player games and online multiplayer games.
           	</div>
           	<a href="https://bitbucket.org/magic31415/maxcorwin">Bitbucket Repository</a>
 					</div>
